@@ -10,7 +10,7 @@ private:
 
 public:
     Producteur(string, string, int, int);
-    double calculerSalaire() override;
+    double calculerSalaire() ;
     void afficher();
 };
 

@@ -7,7 +7,7 @@ class Vendeur : public Commercial
 {
 public:
     Vendeur(string, string, int, int, double);
-    double calculerSalaire() override;
+    double calculerSalaire() ;
     void afficher();
 };
 
