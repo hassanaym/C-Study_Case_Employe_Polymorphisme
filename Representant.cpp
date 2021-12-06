@@ -14,6 +14,8 @@ double Representant::calculerSalaire()
 
 void Representant::afficher()
 {
+    cout << "______Representant______" << endl;
     Commercial::afficher();
     cout << "Salaire : " << calculerSalaire() << endl;
+    cout << "-----------------" << endl;
 }

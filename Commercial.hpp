@@ -10,7 +10,7 @@ protected:
 
 public:
     Commercial(string, string, int, int, double);
-    void afficher();
+    virtual void afficher();
 };
 
 #endif

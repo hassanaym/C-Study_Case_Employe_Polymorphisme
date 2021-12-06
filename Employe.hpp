@@ -14,7 +14,8 @@ protected:
 
 public:
     Employe(string, string, int, int);
-    void afficher();
+    virtual void afficher();
     virtual double calculerSalaire() = 0;
+    virtual ~Employe();
 };
 #endif

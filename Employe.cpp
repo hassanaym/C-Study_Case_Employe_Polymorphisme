@@ -13,3 +13,5 @@ void Employe::afficher()
     cout << "Age : " << _age << endl;
     cout << "Annne de recrutement : " << _anneeRecrutement << endl;
 };
+
+Employe::~Employe(){};

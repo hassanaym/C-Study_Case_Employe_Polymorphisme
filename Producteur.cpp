@@ -14,7 +14,9 @@ double Producteur::calculerSalaire()
 
 void Producteur::afficher()
 {
+    cout << "______Producteur______" << endl;
     Employe::afficher();
     cout << "Nombre unites : " << _nombreUnite << endl;
     cout << "Salaire : " << calculerSalaire() << endl;
+    cout << "-----------------" << endl;
 }

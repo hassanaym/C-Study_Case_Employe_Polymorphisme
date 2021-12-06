@@ -15,6 +15,8 @@ double Vendeur::calculerSalaire()
 
 void Vendeur::afficher()
 {
+    cout << "______Vendeur______" << endl;
     Commercial::afficher();
     cout << "Salaire : " << calculerSalaire() << endl;
+    cout << "-----------------" << endl;
 };
