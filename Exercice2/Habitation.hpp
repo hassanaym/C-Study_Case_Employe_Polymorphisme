@@ -13,6 +13,6 @@ protected:
 public:
     Habitation(string, string, double);
     double impot();
-    void afficher();
+    virtual void afficher();
 };
 #endif

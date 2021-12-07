@@ -4,7 +4,7 @@
 HabitationProfessionnelle::HabitationProfessionnelle(string proprietaire, string adresse, double surface) : Habitation(proprietaire, adresse, surface){};
 void HabitationProfessionnelle::afficher()
 {
-    cout << "____Habitation individuelle____" << endl;
+    cout << "____Habitation Professionnelle____" << endl;
     Habitation::afficher();
     cout << "Nombre de employes : " << _nombreEmploye << endl;
     cout << "Impot : " << impot() << endl;

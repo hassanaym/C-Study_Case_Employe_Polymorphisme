@@ -1,7 +1,7 @@
 #include "Habitation.hpp"
 #include "Impot.hpp"
 
-void Impot::add(Habitation &h)
+void Impot::add(Habitation *h)
 {
     habitations.push_back(h);
 };

@@ -1,7 +1,9 @@
 #include <iostream>
 #include "HabitationIndividuelle.hpp"
 
-HabitationIndividuelle::HabitationIndividuelle(string proprietaire, string adresse, double surface) : Habitation(proprietaire, adresse, surface){};
+HabitationIndividuelle::HabitationIndividuelle(string proprietaire, string adresse, double surface, int nbrPiece, bool piscine) : Habitation(proprietaire, adresse, surface),
+                                                                                                                                  _nombrePiece(nbrPiece),
+                                                                                                                                  _piscine(piscine){};
 void HabitationIndividuelle::afficher()
 {
     cout << "____Habitation individuelle____" << endl;

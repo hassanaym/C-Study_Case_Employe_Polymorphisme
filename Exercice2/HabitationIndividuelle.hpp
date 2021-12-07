@@ -9,7 +9,7 @@ private:
     bool _piscine;
 
 public:
-    HabitationIndividuelle(string, string, double);
+    HabitationIndividuelle(string, string, double, int, bool);
     void afficher();
     double impot();
 };
